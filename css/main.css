@@ -161,7 +161,7 @@ main ul+p,main ol+p{margin-top:14px}
 .table-wrap caption{caption-side:top;text-align:left;padding:14px 16px 4px;font-family:var(--font-head);font-weight:700;color:var(--onyx)}
 .table-wrap th{background:var(--onyx);color:#fff;text-align:left;padding:11px 14px;font-weight:600;font-size:14px}
 .table-wrap td{padding:11px 14px;border-top:1px solid var(--line);vertical-align:top}
-.table-wrap td:first-child{font-weight:700;color:var(--onyx)}
+.table-wrap td:first-child{font-weight:700;color:var(--onyx);min-width:104px;overflow-wrap:normal;word-break:normal}
 .table-wrap tr:nth-child(even) td{background:var(--tint2)}
 
 /* pricing transparency card */
